@@ -1,0 +1,34 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Ravi's awesome website
+
+Adding some text here.
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+## Subsection
+
+Additional text
+
+```{r}
+rnorm(10)
+```
+
+## links to other sites
+Link to useful tools for data science
+
+* [google](https://www.google.com)
+* [P8105](https://p8105.com)
+
+## Local image
+![](images/ted.jpg)
+
+## link to page within the site
+[About me](about.html)
