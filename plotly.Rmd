@@ -66,3 +66,24 @@ nyc_airbnb |>
           type = "bar")
 ```
 
+some other plotly types
+
+heatmap
+```{r}
+plot_ly(z = volcano,
+        type = "heatmap")
+```
+
+chloropleth
+```{r}
+plot_ly(
+  type = "choropleth" ,
+  locations = c("AZ", "CA", "VT") ,
+  locationmode = "USA-states" ,
+  colorscale = "Viridis" ,
+  z = c(10, 20, 40)
+) |>
+  layout (geo = list (scope = "usa"))
+```
+
+
